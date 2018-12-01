@@ -1,19 +1,19 @@
 Here is a nice explanation of Parallel Processing in Python: https://stackabuse.com/parallel-processing-in-python/
 
-Time comparison\
+Time comparison
 ---------------
 
 C02VQ1S6HTDD:python_multiprocessing nsiddiq$ time python non_parallel_function.py
 
 real	0m0.352s\
 user	0m0.252s\
-sys	0m0.081s\
+sys	0m0.081s
 
 C02VQ1S6HTDD:python_multiprocessing nsiddiq$ time python3 parallel_function.py
 
 real	0m0.564s\
 user	0m0.559s\
-sys	0m0.250s\
+sys	0m0.250s
 
 The parallel version is slower! Why?
 
