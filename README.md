@@ -20,7 +20,8 @@ The parallel version is slower! Why?
 Short answer: The square root function is not complex enough such that parallelizing it outweighs the time spent by the CPU in keeping track of all of the newly forked processes.\
 Long but more detailed answer: https://stackoverflow.com/a/52076791
 
-Process Pools
+Process Pools Python class man page
+-----------------------------------
 
 One can create a pool of processes which will carry out tasks submitted to it with the Pool class.
 
