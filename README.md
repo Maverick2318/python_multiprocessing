@@ -15,7 +15,7 @@ real	0m0.564s\
 user	0m0.559s\
 sys	0m0.250s\
 
-The parallel version is slower! Why?\
+The parallel version is slower! Why?
 
 Short answer: The square root function is not complex enough such that parallelizing it outweighs the time spent by the CPU in keeping track of all of the newly forked processes.\
 Long but more detailed answer: https://stackoverflow.com/a/52076791
