@@ -1,4 +1,4 @@
-Here is a nice explanation of Parallel Processing in Python: https://stackabuse.com/parallel-processing-in-python/
+Here is a nice explanation of Parallel Processing in Python. You can read up to and including the section called "Running a Function in Parallel with Python": https://stackabuse.com/parallel-processing-in-python/
 
 Time comparison
 ---------------
